@@ -21,7 +21,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({ language }) => {
             <div className="relative rounded-3xl overflow-hidden border-2 border-goldAccent/30 shadow-2xl bg-midnight group">
               <div className="h-[480px] w-full overflow-hidden relative">
                 <img
-                  src="C:/Users/rohii/.gemini/antigravity/brain/7d88a306-1e1a-46ab-8c91-b3225608ce18/.user_uploaded/media_1791639440719_4fe3845b.jpg"
+                  src="images/owner.jpg"
                   alt="Ajit Kumar Singh - Proprietor"
                   className="w-full h-full object-cover object-top filter brightness-95 contrast-105 group-hover:scale-105 transition-transform duration-700"
                 />
@@ -41,7 +41,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({ language }) => {
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-goldAccent shadow shrink-0">
                       <img
-                        src="C:/Users/rohii/.gemini/antigravity/brain/7d88a306-1e1a-46ab-8c91-b3225608ce18/.user_uploaded/media_1791639440719_4fe3845b.jpg"
+                        src="images/owner.jpg"
                         alt="Ajit Kumar Singh"
                         className="w-full h-full object-cover object-top"
                       />

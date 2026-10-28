@@ -97,7 +97,7 @@ Namaste Ajit ji, kripya rate aur availability batayein.`;
               <div className="p-4 rounded-xl bg-midnight/80 border border-goldAccent/25 flex items-center gap-4 shadow-lg">
                 <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-goldAccent shrink-0 shadow">
                   <img 
-                    src="C:/Users/rohii/.gemini/antigravity/brain/7d88a306-1e1a-46ab-8c91-b3225608ce18/.user_uploaded/media_1791638398711_e97e9df0.jpg" 
+                    src="images/owner.jpg" 
                     alt="Ajit Kumar Singh - Owner" 
                     className="w-full h-full object-cover object-top"
                   />

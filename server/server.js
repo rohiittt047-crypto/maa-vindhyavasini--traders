@@ -52,8 +52,8 @@ const DEFAULT_PRODUCTS = [
     availableUnits: ['CFT (Cubic Feet)', 'Tractor Trolley (~100 CFT)', 'Truck Load (~400 CFT)'],
     minOrderQty: 100,
     stockStatus: 'in_stock',
-    image: 'C:/Users/rohii/.gemini/antigravity/brain/7d88a306-1e1a-46ab-8c91-b3225608ce18/sand_balu_1791632895181.jpg',
-    fallbackImage: 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/sand_balu.jpg',
+    fallbackImage: 'images/sand_balu.jpg',
     isFeatured: true
   },
   {
@@ -71,8 +71,8 @@ const DEFAULT_PRODUCTS = [
     availableUnits: ['CFT (Cubic Feet)', 'Tractor Trolley (~100 CFT)', 'Truck Load (~400 CFT)'],
     minOrderQty: 100,
     stockStatus: 'in_stock',
-    image: 'C:/Users/rohii/.gemini/antigravity/brain/7d88a306-1e1a-46ab-8c91-b3225608ce18/stone_chips_gitti_1791632969018.jpg',
-    fallbackImage: 'https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/stone_chips_gitti.jpg',
+    fallbackImage: 'images/stone_chips_gitti.jpg',
     isFeatured: true
   },
   {
@@ -90,8 +90,8 @@ const DEFAULT_PRODUCTS = [
     availableUnits: ['Kg (Kilogram)', 'Quintal (100 Kg)', 'Tonne (1000 Kg)'],
     minOrderQty: 50,
     stockStatus: 'in_stock',
-    image: 'C:/Users/rohii/.gemini/antigravity/brain/7d88a306-1e1a-46ab-8c91-b3225608ce18/tmt_steel_bars_1791632814743.jpg',
-    fallbackImage: 'https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/tmt_steel_bars.jpg',
+    fallbackImage: 'images/tmt_steel_bars.jpg',
     isFeatured: true
   },
   {
@@ -109,8 +109,8 @@ const DEFAULT_PRODUCTS = [
     availableUnits: ['Bag (50 Kg)'],
     minOrderQty: 10,
     stockStatus: 'in_stock',
-    image: 'C:/Users/rohii/.gemini/antigravity/brain/7d88a306-1e1a-46ab-8c91-b3225608ce18/cement_bags_1791633019922.jpg',
-    fallbackImage: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/cement_bags.jpg',
+    fallbackImage: 'images/cement_bags.jpg',
     isFeatured: true
   },
   {
@@ -128,8 +128,8 @@ const DEFAULT_PRODUCTS = [
     availableUnits: ['Piece (नग)', '1000 Bricks (हजार)'],
     minOrderQty: 500,
     stockStatus: 'in_stock',
-    image: 'C:/Users/rohii/.gemini/antigravity/brain/7d88a306-1e1a-46ab-8c91-b3225608ce18/red_bricks_1791633103784.jpg',
-    fallbackImage: 'https://images.unsplash.com/photo-1584463699039-4d6cbdb8f341?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/red_bricks.jpg',
+    fallbackImage: 'images/red_bricks.jpg',
     isFeatured: true
   },
   {
@@ -147,8 +147,8 @@ const DEFAULT_PRODUCTS = [
     availableUnits: ['Kg (Kilogram)', 'Bundle (25 Kg)'],
     minOrderQty: 5,
     stockStatus: 'in_stock',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80',
-    fallbackImage: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/tmt_steel_bars.jpg',
+    fallbackImage: 'images/tmt_steel_bars.jpg',
     isFeatured: true
   }
 ];
@@ -311,7 +311,7 @@ app.post('/api/products', verifyAdminToken, async (req, res) => {
       availableUnits: [unit],
       minOrderQty: Number(minOrderQty) || 1,
       stockStatus: req.body.stockStatus || 'in_stock',
-      image: image || 'https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=1200&q=80',
+      image: image || 'images/hero_construction.jpg',
       isFeatured: false,
       updatedAt: new Date()
     };

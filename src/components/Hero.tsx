@@ -71,9 +71,9 @@ export const Hero: React.FC<HeroProps> = ({ language }) => {
       {/* Background Cinematic Photograph */}
       <div className="absolute inset-0 z-0">
         <img
-          src="C:/Users/rohii/.gemini/antigravity/brain/7d88a306-1e1a-46ab-8c91-b3225608ce18/hero_construction_1791632768450.jpg"
+          src="images/hero_construction.jpg"
           onError={(e) => {
-            (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=1920&q=80';
+            (e.target as HTMLImageElement).src = 'images/hero_construction.jpg';
           }}
           alt="Modern Architectural Construction Site"
           className="w-full h-full object-cover object-center scale-105 filter brightness-75 contrast-110"

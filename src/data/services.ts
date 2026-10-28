@@ -61,8 +61,8 @@ export const galleryData: GalleryItem[] = [
     descEn: 'Bundled high-strength structural ribbed steel for RCC casting',
     descHi: 'आरसीसी ढलाई हेतु बंडल की गई उच्च शक्ति वाली टीएमटी सरिया',
     category: 'steel',
-    image: 'C:/Users/rohii/.gemini/antigravity/brain/7d88a306-1e1a-46ab-8c91-b3225608ce18/tmt_steel_bars_1791632814743.jpg',
-    fallbackImage: 'https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/tmt_steel_bars.jpg',
+    fallbackImage: 'images/tmt_steel_bars.jpg',
     query: 'TMT Steel Bars'
   },
   {
@@ -72,8 +72,8 @@ export const galleryData: GalleryItem[] = [
     descEn: '10mm & 20mm blue-grey aggregates for high strength concrete',
     descHi: 'मजबूत कंक्रीट कार्य के लिए 10mm व 20mm स्टोन चिप्स',
     category: 'aggregates',
-    image: 'C:/Users/rohii/.gemini/antigravity/brain/7d88a306-1e1a-46ab-8c91-b3225608ce18/stone_chips_gitti_1791632969018.jpg',
-    fallbackImage: 'https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/stone_chips_gitti.jpg',
+    fallbackImage: 'images/stone_chips_gitti.jpg',
     query: 'Gitti (Stone Chips)'
   },
   {
@@ -83,8 +83,8 @@ export const galleryData: GalleryItem[] = [
     descEn: 'Coarse masonry river sand for plaster and mortar bonding',
     descHi: 'प्लास्टर और चिनाई के लिए उपयुक्त दरदरी नदी की बालू',
     category: 'aggregates',
-    image: 'C:/Users/rohii/.gemini/antigravity/brain/7d88a306-1e1a-46ab-8c91-b3225608ce18/sand_balu_1791632895181.jpg',
-    fallbackImage: 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/sand_balu.jpg',
+    fallbackImage: 'images/sand_balu.jpg',
     query: 'Balu (River Sand)'
   },
   {
@@ -94,8 +94,8 @@ export const galleryData: GalleryItem[] = [
     descEn: 'Palletized construction cement bags in industrial warehouse',
     descHi: 'वेयरहाउस में पैलेटाइज्ड निर्माण सीमेंट बैग्स',
     category: 'cement',
-    image: 'C:/Users/rohii/.gemini/antigravity/brain/7d88a306-1e1a-46ab-8c91-b3225608ce18/cement_bags_1791633019922.jpg',
-    fallbackImage: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/cement_bags.jpg',
+    fallbackImage: 'images/cement_bags.jpg',
     query: 'Cement'
   },
   {
@@ -105,8 +105,8 @@ export const galleryData: GalleryItem[] = [
     descEn: 'Kiln-fired terracotta building bricks for wall masonry',
     descHi: 'मजबूत दीवार निर्माण हेतु उच्च घनत्व की लाल ईंटें',
     category: 'cement',
-    image: 'C:/Users/rohii/.gemini/antigravity/brain/7d88a306-1e1a-46ab-8c91-b3225608ce18/red_bricks_1791633103784.jpg',
-    fallbackImage: 'https://images.unsplash.com/photo-1584463699039-4d6cbdb8f341?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/red_bricks.jpg',
+    fallbackImage: 'images/red_bricks.jpg',
     query: 'Bricks'
   },
   {
@@ -116,8 +116,8 @@ export const galleryData: GalleryItem[] = [
     descEn: 'Foundation columns and reinforced rebar cages at building site',
     descHi: 'निर्माण स्थल पर फाउंडेशन पिलर और सरिया ढलाई कार्य',
     category: 'steel',
-    image: 'C:/Users/rohii/.gemini/antigravity/brain/7d88a306-1e1a-46ab-8c91-b3225608ce18/hero_construction_1791632768450.jpg',
-    fallbackImage: 'https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=1200&q=80',
+    image: 'images/hero_construction.jpg',
+    fallbackImage: 'images/hero_construction.jpg',
     query: 'Construction Materials'
   }
 ];
